@@ -1,2 +1,3 @@
 # merge-sort
-Pretty basic comparison between merge sort and brute force
+
+Comparison between sorting algorithms implemented in javascript
