@@ -1,5 +1,3 @@
-const start = process.hrtime();
-
 const mergeSort = unsortedArray => {
   if (unsortedArray.length <= 1) {
     return unsortedArray;
@@ -28,6 +26,4 @@ const mergeSort = unsortedArray => {
   return merge(mergeSort(left), mergeSort(right));
 };
 
-console.log(mergeSort([2, 4, 6, 6, 4, 3, 9, 1]));
-
-console.log(process.hrtime(start));
+module.exports = mergeSort;
